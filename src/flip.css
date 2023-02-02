@@ -1,0 +1,40 @@
+.land{
+    width: 20%;
+}
+.land-book{
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .part{
+      width: 100%;
+    }
+   .pn-22{
+       float: left;
+   }
+   .dis{
+    display: inline-flex;
+    flex-wrap: wrap;
+   }
+   .padd{
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
+   }
+  }
+
+  
+@media (max-width: 2000px) {
+    .roun{
+        border-radius: 0.25rem/* 4px */;
+    }
+    .center-text{
+        text-align: center;   
+    }
+    .lock{
+        display: block;
+    }
+    /* .shad{
+        --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    } */
+  }
